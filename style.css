@@ -1,0 +1,112 @@
+/* FONT-FAMILY STYLE */
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: 'figtreesemi';
+  src: url('./assets/fonts/static/Figtree-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'figtreebold';
+  src: url('./assets/fonts/static/Figtree-ExtraBold.ttf');
+}
+/* -- A GENERAKIZED STYLE */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  /* -- STYLE FOR THE BODY -- */
+body {
+    background-color: hsl(47, 88%, 63%);
+    width: 100vw;
+    height: 100vh;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 100%;
+    font-family: 'Figtree', sans-serif;
+}
+/* -- STYLE FOR THE JUMBOTRON -- */
+.jumbotron {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 333px;
+    padding: 1rem;
+    box-shadow: 7px 7px;
+}
+/* -- STYLE FOR THE JUMBOTRON PICTURE -- */
+.jumbotron_picture {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+/* -- STYLE FOR THE JUMBOTRON IMG -- */
+.jumbotron_img {
+  display: block;
+  width: 100%;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+/* -- STYLE FOR THE FIRST TEXT -- */
+.first_text {
+  background-color: hsl(47, 88%, 63%);
+  width: fit-content;
+  border-radius: 0.3rem;
+  letter-spacing: -0.01rem;
+  padding: 0.5em 1em;
+  margin-bottom: 1rem;
+  font-family: 'figtreebold', sans-serif;
+}
+/* -- STYLE FOR THE SECOND TEXT -- */
+.second_text {
+  font-family: 'figtreesemi', sans-serif;
+  margin-bottom: 1.3rem;
+  
+}
+/* -- STYLE FOR THE HEADING-- */
+h1 {
+  font-family: 'figtreebold', sans-serif;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover, a:focus {
+  color: hsl(47, 88%, 63%);;
+}
+/* -- STYLE FOR THE THIRD TEXT -- */
+.third_text {
+  font-size: 0.9rem;
+  font-family: 'figtree', sans-serif;
+  line-height: 1.5;
+  color: hsl(0, 0%, 50%);
+  margin-bottom: 1rem ;
+}
+/* -- STYLE FOR THE JUMBOTRON AUTHOR-- */
+.jumbotron_author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* -- STYLE FOR THE AUTHOR IMG -- */
+.author_img {
+  width: 30px;
+  margin-right: 1rem;
+}
+/* -- STYLE FOR THE SECOND HEADING-- */
+h2 {
+  font-size: 90%;
+  font-family: 'figtreebold', sans-serif;
+  color: black;
+
+}
+
+/* -- END OF STYLING -- */
